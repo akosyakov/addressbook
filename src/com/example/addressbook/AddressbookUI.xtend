@@ -144,7 +144,7 @@ class ContactFilter implements Container.Filter {
 	}
 
 	override passesFilter(Object itemId, Item item) {
-		'''Çitem.getItemProperty(FNAME).valueÈÇitem.getItemProperty(LNAME).valueÈÇitem.getItemProperty(COMPANY).valueÈ'''.
+		'''Â«item.getItemProperty(FNAME).valueÂ»Â«item.getItemProperty(LNAME).valueÂ»Â«item.getItemProperty(COMPANY).valueÂ»'''.
 			toString.toLowerCase.contains(needle)
 	}
 
